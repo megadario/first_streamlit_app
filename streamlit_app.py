@@ -30,6 +30,6 @@ streamlit.text("Hello from Snowflake:")
 streamlit.text(my_data_row)
 
 
-my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('test')");
+my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')");
 
 my_cur.close()
