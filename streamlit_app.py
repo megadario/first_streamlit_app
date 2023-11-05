@@ -2,6 +2,7 @@ import streamlit
 import pandas
 import requests
 import snowflake.connector
+from urllib.error import URLError
 
 streamlit.title('My parents New Healthy Diner')
 
@@ -32,4 +33,3 @@ streamlit.text(my_data_row)
 
 my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('from streamlit')");
 
-my_cur.close()
