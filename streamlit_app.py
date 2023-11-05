@@ -31,5 +31,5 @@ streamlit.text(my_data_row)
 
 
 my_cur.execute("insert into PC_RIVERY_DB.PUBLIC.FRUIT_LOAD_LIST values ('test')");
-my_cur.commit()
+
 my_cur.close()
